@@ -1,0 +1,155 @@
+@media screen and (max-width: 1024px) and (min-width: 771px) {
+  aside {
+    width: 90px;
+    overflow-x: hidden;
+  }
+
+  .main {
+    width: calc(100% - 90px);
+  }
+
+  aside h1,
+  aside p,
+  aside button span:last-child {
+    display: none;
+  }
+
+  aside li,
+  .buttons-sidebar button {
+    justify-content: center;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .buttons-sidebar button {
+    gap: 0;
+  }
+
+  .icon-side {
+    margin: 0;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .ds-grid-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "card-1 card-2"
+      "card-3 card-3";
+  }
+
+  .grid-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+
+  aside,
+  .main {
+    width: 100%;
+  }
+
+  aside {
+    position: static;
+    height: auto;
+  }
+
+  aside h1,
+  aside p,
+  aside button span:last-child {
+    display: block;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ds-grid-1 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card-1"
+      "card-2"
+      "card-3";
+  }
+
+  .grid-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .bill-cards .budget {
+    width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  td,
+  th {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  td img,
+  td span {
+    width: 32px;
+    height: 32px;
+  }
+
+  .icon-side {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .display-flex {
+    gap: 6px;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .bill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .bill-cards .budget {
+    width: 100%;
+  }
+
+  .f-size,
+  .f-size-2 {
+    font-size: 1.5rem;
+  }
+
+  .card-inner .card-front,
+  .card-inner .card-back {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

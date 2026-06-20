@@ -69,6 +69,10 @@
   aside button span:last-child {
     display: block;
   }
+  .edit {
+    justify-content: space-between;
+    width: 100%;
+  }
 
   .header {
     flex-wrap: wrap;
@@ -114,8 +118,8 @@
 
   td,
   th {
-    padding: 8px;
-    font-size: 13px;
+    padding: 0.5rem;
+    font-size: 0.8125rem;
   }
 
   td img,
@@ -126,7 +130,7 @@
 
   .icon-side {
     margin: 0;
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .display-flex {

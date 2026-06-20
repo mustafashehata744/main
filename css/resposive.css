@@ -107,6 +107,11 @@
 }
 
 @media (max-width: 480px) {
+  .edit {
+    justify-content: space-between;
+    width: 100%;
+  }
+
   td,
   th {
     padding: 8px;

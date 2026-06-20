@@ -97,9 +97,10 @@ header {
 }
 ul li {
   list-style: none;
-  padding: 12px;
+  padding: 0.75rem;
   line-height: 2;
   width: 95%;
+
   margin: 1.25rem auto;
   transition: all ease 0.3s;
   border-radius: var(--radius);
@@ -119,6 +120,8 @@ ul li:hover {
   width: 80%;
   line-height: 1.5;
   font-size: 1rem;
+  font-weight: 600;
+  color: #886262;
   padding: var(--padding);
   transition: all ease 0.3s;
   border-radius: var(--radius);
@@ -182,7 +185,7 @@ aside {
 }
 .head-icon:hover {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #dedbdb;
 }
 .header-image {
   border: var(--border-gray);
